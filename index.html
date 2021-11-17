@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport;"content="width=device-width, intial scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300&family=Montserrat:wght@200&family=Raleway:wght@300&family=Urbanist:wght@200&display=swap" rel="stylesheet">
+<title>Quiz App</title>
+    <link rel="stylesheet" href="qa.css">
+    <script src="qa.js"></script>
+</head>
+</head>
+<body>
+   
+    <form name="quiz" id="quiz">
+    <div class="container">
+        <h1>Quiz App</h1>
+        <div class="questions">
+        <label class="label" name="q1"> Which of the following is NOT a Javascript Event?</label><br><br>
+        
+       <p><input type="radio"  name="q1"  value="A"> ondblClick() <br></p> 
+       <p><input type="radio"   name="q1"  value="B"> onBlur()<br> </p> 
+        <p><input type="radio"  name="q1"  value="C"> onClick() <br></p>
+        <p><input type="radio"  name="q1"  value="D"> alert()<br></p>
+       <br>
+       
+    </div>
+      
+    <div class="questions">
+            <label class="label" name="q2"> In JavaScript when two equal signs (==) are used, which is the question being asked?</label><br><br>
+              
+        <p><input type="radio" name="q2"  value="A"> What is the the answer to?<br></p>
+        <p> <input type="radio" name="q2"  value="B"> Is this the correct sum? <br> </p>
+       <p><input type="radio" name="q2"  value="C"> Is this equal to something? <br></p> 
+       <p><input type="radio" name="q2"  value="D"> Why is this not equal? <br></p> 
+    </div>
+   
+    <div class="questions">
+        <label class="label" name="q3"> When can an else statement be used? </label><br><br>
+        
+       <p><input type="radio" name="q3"  value="A">Before an if statement<br></p> 
+        <p><input type="radio" name="q3"  value="B">At the end of all code<br> </p>
+       <p><input type="radio" name="q3"  value="C">Else statements are never used <br></p>
+       <p><input type="radio" name="q2"  value="D"> After an if statement <br></p> 
+       </div>
+
+       <div class="questions">
+        <label class="label" name="q4"> An onload event occurs when a webpage loads. </label><br><br>
+        
+       <p><input type="radio" name="q4"  value="A"> true <br></p> 
+        <p><input type="radio" name="q4"  value="B"> false <br> </br>
+       </div></p>
+        
+
+       <div class="questions">
+        <label class="label" name="q5"> Which of the following is the correct syntax to hide a button using javascript with jQuery?</label><br><br>
+        
+       <p><input type="radio" name="q5"  value="A"> Neither of these <br></p> 
+        <p><input type="radio" name="q5"  value="B"> Both of these <br> </p>
+       <p><input type="radio" name="q5"  value="C"> document.getElementById(id).style.display = "none"; <br></p>
+        <p><input type="radio" name="q5"  value="D"> document.getElementById(id).hide(); <br><br>
+       </div></p> 
+        
+
+
+        
+       <input type="button" class="button" value="Submit" onclick="check()">
+       <p id="result"> </p>
+
+        
+         
+    </div>
+
+</form>
+
+</body>
+</html>

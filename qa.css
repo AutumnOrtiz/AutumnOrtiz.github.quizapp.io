@@ -1,0 +1,84 @@
+h1{
+    text-align:center;
+    font-size:1.5rem;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+}
+ body{ 
+     background-image: url(backkk.gif);
+     background-repeat: no-repeat;
+     background-size: 100%;
+ }
+.container{
+    width:50%;
+    height:270vh;
+    background-color:black;
+    margin:auto;
+    position: relative;
+    padding:15px;
+    border-radius:15px;
+    
+    
+}
+
+ .questions{
+    background-color: #fc9168;
+  height: 350px;
+  
+  border: 15px solid #e5e5e5;
+  border-radius: 15px;
+  padding: 10px;
+  margin-bottom: 10px;
+  font-family: 'Dosis', sans-serif;
+  
+}
+
+.button{
+   
+    color:black;
+ 
+    background-color: #fcb296;
+    border-radius: 15px;
+    border: none;
+    font-family: 'Dosis', sans-serif;
+     text-align: center;
+     text-decoration: none;
+     cursor: pointer;
+     padding:15px;
+     font-size:1.5rem; 
+} 
+
+
+  .label{
+    position: absolute;
+    width:650px;
+      background-color:  #fc9168;
+      color:black;
+      padding:10px;
+      font-size:1.5rem;
+      
+        
+  }
+
+  p{
+      font-size:1.25rem;
+      text-indent:25px;
+      padding:0px;
+      margin-top:40px;
+  }
+
+  #result{
+     
+    font-size:1.25rem;
+    text-align: right;
+    margin-top:-50px;
+    color:white;
+    font-family: 'Dosis', sans-serif;
+    background-color: black;
+    
+   
+ 
+   
+   
+}
+  
